@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+:root {
+  --white: hsl(0, 0%, 100%);
+  --lightgray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+  --font-primary: "Outfit", sans-serif;
+  --size-paragraph: 15px;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: var(--lightgray);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: var(--white);
+  width: 326px;
+  border-radius: 2.5rem;
+  overflow: hidden;
+  text-align: center;
+}
+.card-img {
+  max-width: 100%;
+  display: block;
+  padding: 1rem;
+  border-radius: 2.5rem;
+}
+.card-title {
+  font-size: 2.5rem;
+  color: var(--dark-blue);
+  font-weight: 700;
+  line-height: 3.5rem;
+}
+.card-paragraph {
+  font-size: var(--size-paragraph);
+  color: var(--grayish-blue);
+  font-weight: 400;
+  padding: 0 3.5rem 2.5rem 3.5rem;
+}/*# sourceMappingURL=estilos.css.map */
